@@ -1,7 +1,7 @@
 {
-  "name": "deCONZ",
+  "name": "deCONZ2",
   "version": "6.11.0",
-  "slug": "deconz",
+  "slug": "deconz2",
   "description": "Control a Zigbee network with ConBee or RaspBee by Dresden Elektronik",
   "arch": [
     "amd64",
