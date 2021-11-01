@@ -1,9 +1,13 @@
 {
   "name": "deCONZ",
-  "version": "6.10.0",
+  "version": "6.11.0",
   "slug": "deconz",
   "description": "Control a Zigbee network with ConBee or RaspBee by Dresden Elektronik",
-  "arch": ["amd64", "armhf", "aarch64"],
+  "arch": [
+    "amd64",
+    "armhf",
+    "aarch64"
+  ],
   "url": "https://github.com/home-assistant/hassio-addons/tree/master/deconz",
   "startup": "services",
   "init": false,
@@ -11,7 +15,9 @@
   "ingress_entry": "ingress.html",
   "panel_icon": "mdi:zigbee",
   "homeassistant": "0.91.2",
-  "discovery": ["deconz"],
+  "discovery": [
+    "deconz"
+  ],
   "ports": {
     "5900/tcp": null,
     "8081/tcp": null,
@@ -27,9 +33,15 @@
   "udev": true,
   "gpio": true,
   "apparmor": false,
-  "privileged": ["SYS_RAWIO"],
-  "devices": ["/dev/mem"],
-  "backup_exclude": ["*/otau"],
+  "privileged": [
+    "SYS_RAWIO"
+  ],
+  "devices": [
+    "/dev/mem"
+  ],
+  "backup_exclude": [
+    "*/otau"
+  ],
   "options": {
     "device": null
   },

@@ -1,4 +1,7 @@
 # Changelog
+## 6.11.0
+
+- Bump deconz to beta release 2.13.01
 
 ## 6.10.0
 
